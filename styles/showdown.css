@@ -68,7 +68,6 @@ body {
 }
 
 .animationContainers {
-  opacity: 0;
   display: -ms-grid;
   display: grid;
   font-size: 10rem;
