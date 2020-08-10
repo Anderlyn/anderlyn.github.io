@@ -303,7 +303,7 @@
         </div>
         <div id='contact' class='scrollspy'>
             <span class='section'>Contact /> </span>
-            <h1><span class='color'>Let's talk.</span></h1>
+            <h1><span class='color'>Let's talk.</span> <span id='error' style="font-size: 26px; color: rgb(255, 77, 77)"></span></h1>
             <div class="row" id='sendform'>
                 <form class="col s12">
                   <div class="row">
@@ -331,9 +331,11 @@
                 </form>
               </div>
               <span id='circle'></span>
-              <button id='submitBtn' class="btn-large large waves-effect waves-light" name="action">Send
-                <i class="material-icons right">send</i>
-            </button>
+
+              <button style='float: left' id='submitBtn' class="btn-large large waves-effect waves-light" name="action" onclick="sendMail()">Send
+                <i class="material-icons right">send</i> 
+            </button> 
+            <p id='process' style="float: left; font-size: 26px; color: rgb(144, 255, 144); margin-left: 25px"></p>
         </div>
 
     </div>
